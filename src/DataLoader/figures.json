@@ -1,0 +1,15 @@
+[
+    {
+        "figure": {
+	    "type" : "Circle",
+            "parameters": "230 3 3",
+         
+        }
+    },
+    {
+        "Circle": {
+            "type" : "Circle",
+            "parameters": "80 150 200",
+        }
+    }
+]
