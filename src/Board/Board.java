@@ -8,6 +8,7 @@ import java.util.Random;
 
 import javax.swing.JPanel;
 
+import DataLoader.DataLoader;
 import Figures.Circle;
 import Figures.IFigure;
 import Figures.Rectangle;
@@ -21,16 +22,16 @@ public class Board extends JPanel{
 	
 	public Board()
 	{
-		Random random = new Random();
+		/*Random random = new Random();
 		double[] center = new double[2];
 		center[0] = random.nextInt(800) + 5;
 		center[1] = random.nextInt(800) + 5;
-		figures.add(new Circle(random.nextInt(150) + 50, center));
+		//figures.add(new Circle(random.nextInt(150) + 50, center));
 		
 		double[] X1 = new double[2];
 		X1[0] = random.nextInt(800) + 5;
 		X1[1] = random.nextInt(800) + 5;
-		figures.add(new Rectangle(X1, random.nextInt(150) + 50, random.nextInt(150) + 50));
+		//figures.add(new Rectangle(X1, random.nextInt(150) + 50, random.nextInt(150) + 50));
 		
 		double[] X = new double[3];
 		X[0] = random.nextInt(800) + 5;
@@ -40,8 +41,9 @@ public class Board extends JPanel{
 		double[] Y = new double[3];
 		Y[0] = random.nextInt(800) + 5;
 		Y[1] = random.nextInt(800) + 5;
-		Y[2] = random.nextInt(800) + 5;
-		figures.add(new Triangle(X, Y));
+		Y[2] = random.nextInt(800) + 5;*/
+		//figures.add(new Triangle(X, Y));
+		figures = DataLoader.loader();
 	}
 	
 	protected void paintComponent(Graphics g) 

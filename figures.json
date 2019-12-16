@@ -2,7 +2,21 @@
     {
         "figure": {
 	    "type" : "Circle",
-            "parameters": "230 3 3",
+            "parameters": "230 400 500",
+         
+        }
+    },
+	{
+        "figure": {
+	    "type" : "Rectangle",
+            "parameters": "120 20 100 129",
+         
+        }
+    },
+	{
+        "figure": {
+	    "type" : "Triangle",
+            "parameters": "300 200 312 150 200 401",
          
         }
     }
